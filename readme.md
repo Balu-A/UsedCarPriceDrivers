@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center; color: Purple;">What drives a used car price?</h1>
 <p>This Python application using Jupyter Notebook explores a dataset containing information of 430,000 people in order to determine which factors make them accept a driving coupon.</p>
-<p><a href="https://github.com/Balu-A/UsedCarPriceDrivers/blob/main/PA2_Balaji.ipynb" target="_blank">Jupiter Notebook used</a></p>
+<p><a href="https://github.com/Balu-A/UsedCarPriceDrivers/blob/main/Used%20Car%20Price%20Drivers.ipynb" target="_blank">Jupiter Notebook used</a></p>
 <p> The current CRISP-DM Process Model for Data Mining (see Figure 1) was followed.</p>
 <p align="center">
 <img src="images/CRISP.jpg" width="300px" height="300px">
