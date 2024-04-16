@@ -66,7 +66,7 @@ results that show **null data** across some features.
 <span style="font-family: Arial;font-size: 16px;">Nulls per column:</span>
 
 <p align="center">
-<img src="images/Nulls%.png" width="835px" height="451px">
+<img src="images/Nulls_Pct.png" width="835px" height="451px">
 <h4 align="center"> Figure 3</h4>
 </p>
 
