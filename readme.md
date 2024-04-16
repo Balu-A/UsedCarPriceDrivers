@@ -14,7 +14,7 @@ From a business perspective, we are tasked with identifying key drivers for used
 
 <hr style="border: solid 1px #000;">
 <ol style="font-family: Arial;font-size: 16px;">
-    <li style="color:Blue"> <span style="color:Blue; font-size:15px;font-weight: bold;"> Tasks Involved: </span></li>
+    <li style="color:Blue"> <span style="color:Blue; font-size:15px;font-weight: bold;">Tasks Involved:</li>
     <ul>
         <li style="color:Blue"> <span style="color:Blue; font-size:15px;">Develop a predictive modeling framework to estimate used car prices based on a variety of features.</span></li>
         <li style="color:Blue"> <span style="color:Blue; font-size:15px;">Perform exploratory data analysis to identify potential predictors of car prices, such as make, model, year, mileage, and condition.</span></li>
@@ -95,7 +95,7 @@ and independent variables.
 <span style="font-family: Arial;font-size: 16px;">5. In order to build effective models, some of the 
 low-importance features were **dropped** from the dataframe.</span>
 
-<span style="font-family: Arial;font-size: 16px;color: blue;">['id','region','title_status','VIN','paint_color','state','model']</span>
+<span style="font-family: Arial;font-size: 16px;color: blue;"><strong>['id','region','title_status','VIN','paint_color','state','model']</strong></span>
 
 <span style="font-family: Arial;font-size: 16px;">6. A close examination of the dataset reveals that
 there are a lot of **outliers**. The below bar plot shows that Year and Price have huge outliers. 
@@ -121,15 +121,15 @@ this is the range of the numerical features:
 <span style="font-family: Arial;font-size: 16px;">The prediction of output was made using various
 set of independent variables/input variables using three linear regression models. The models were: </span>
 <span style="font-family: Arial;font-size: 16px;color: red;">
-<br> 
+<br><br> 
 <strong>(a) Linear Regression [w/ Permutation Importance]</strong> <br> 
 <strong>(b) Ridge Regression [w/ GridSearch CV & Permutation Importance]</strong> <br> 
 <strong>(c)Lasso Regression [w/ GridSearchCV & SequentialForwardSelection]</strong>
 </span>
-
+<br><br> 
 <span style="font-family: Arial;font-size: 16px;">Out of the 3 models, the Lasso regression model performed relatively better with 70% of R-Squared error. 
-This means that **70% of the variance in the dependent variable (the variable being predicted) is explained by 
-the independent variables (the predictors) used in the model**. This suggests that the model has a good level of 
+This means that <strong> 70% of the variance in the dependent variable (the variable being predicted) is explained by 
+the independent variables (the predictors) used in the model</strong>. This suggests that the model has a good level of 
 fit and is able to explain a substantial portion of the observed variability in the outcome. </span>
 
 <p align="center">
